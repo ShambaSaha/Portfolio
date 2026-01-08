@@ -24,6 +24,7 @@ import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
+
 // import postmanLogo from './assets/tech_logo/postman.png';
 // import mcLogo from './assets/tech_logo/mc.png';
 // import figmaLogo from './assets/tech_logo/figma.png';
@@ -36,6 +37,7 @@ import doctorLogo from './assets/work_logo/doctor.jpeg';
 import trafficLogo from './assets/work_logo/traffic.jpeg';
 import telematicsLogo from './assets/work_logo/telematics.jpg';
 import unoLogo from './assets/work_logo/unoverse.jpeg';
+import mockwiseLogo from './assets/work_logo/mockwise.jpeg';
 
 import cpsLogo from './assets/education_logo/cpslogo.png';
 import FiemLogo from './assets/education_logo/FIEM_Logo.jpg';
@@ -119,6 +121,15 @@ export const projects = [
         tags: ["React JS", "Node.js", "MongoDB", "Express", "Python","MapBox"],
         github: "https://github.com/ShambaSaha/IntelliTraffic",
         webapp: "",
+    },
+    {
+        id:4,
+        title:'AI powered Voice Interview Platform',
+        description:'An AI-powered platform that conducts voice interviews, analyzes responses, and provides feedback to candidates.',
+        image: mockwiseLogo,
+        tags: ["Next JS", "VAPI", "Firebase"],
+        github: "https://github.com/Preyoshi04/MockWise",
+        webapp: "https://mock-wise-one.vercel.app/",
     }
 ];
 
