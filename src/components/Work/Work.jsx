@@ -113,7 +113,7 @@ const Work = () => {
                   </a>
 
                   {/* View Live - Only for index 0 */}
-                  {selectedProject.index === 0 && (
+                  {selectedProject.index === 0 || selectedProject.index===4 && (
                     <a
                       href={selectedProject.webapp}
                       target="_blank"
