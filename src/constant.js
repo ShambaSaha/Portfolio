@@ -140,6 +140,7 @@ export const projects = [
         tags: ["React JS", "Face API", "Poke API","Tailwind CSS"],
         github: "https://github.com/ShambaSaha/pokemon-scanner",
         webapp: "https://poke-scanner.vercel.app/",
+        
     }
 ];
 
