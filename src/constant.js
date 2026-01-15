@@ -38,6 +38,7 @@ import trafficLogo from './assets/work_logo/traffic.jpeg';
 import telematicsLogo from './assets/work_logo/telematics.jpg';
 import unoLogo from './assets/work_logo/unoverse.jpeg';
 import mockwiseLogo from './assets/work_logo/mockwise.jpeg';
+import pokeLogo from './assets/work_logo/poke.png';
 
 import cpsLogo from './assets/education_logo/cpslogo.png';
 import FiemLogo from './assets/education_logo/FIEM_Logo.jpg';
@@ -127,9 +128,18 @@ export const projects = [
         title:'AI powered Voice Interview Platform',
         description:'An AI-powered platform that conducts voice interviews, analyzes responses, and provides feedback to candidates.',
         image: mockwiseLogo,
-        tags: ["Next JS", "VAPI", "Firebase"],
+        tags: ["Next JS", "VAPI", "Firebase","Tailwind CSS"],
         github: "https://github.com/Preyoshi04/MockWise",
         webapp: "https://mock-wise-one.vercel.app/",
+    },
+    {
+        id:5,
+        title:'Poke-Scanner',
+        description:'A web application that allows users to scan and identify which pokemon matches their face using Face API and Poke API.',
+        image: pokeLogo,
+        tags: ["React JS", "Face API", "Poke API","Tailwind CSS"],
+        github: "https://github.com/ShambaSaha/pokemon-scanner",
+        webapp: "https://poke-scanner.vercel.app/",
     }
 ];
 
@@ -141,7 +151,7 @@ export const education = [
         institution:'Future Institute of Engineering and Management,Sonarpur',
         year:'2022 - 2026',
         description:'A final-year B.Tech student in Computer Science and Engineering, passionate about exploring emerging technologies and continuously enhancing my technical skills.',
-        cgpa:'8.35',
+        cgpa:'8.51',
     },
     {
         id:1,
